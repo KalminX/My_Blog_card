@@ -46,7 +46,6 @@ video {
     justify-content: space-between;
     gap: 10px;
     box-shadow: 8px 8px;
-    min-width: 247px;
 }
 .image img{
     border-radius: 10px;
