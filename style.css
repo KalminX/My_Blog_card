@@ -1,0 +1,85 @@
+/************ CSS reset Template **********/
+**before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+/* html {
+    color-scheme: dark light;
+} */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    background-color: yellow;
+    
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+/************ The rest of the CSS **********/
+.main {
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: solid 1.5px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    box-shadow: 8px 8px;
+    width: 300px;
+}
+.image img{
+    border-radius: 10px;
+}
+.learning{
+    background-color: hsl(47, 88%, 63%);
+    width: 4.5em;
+    padding: 9px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 0.6em;
+}
+.icon{
+    display: flex;
+}
+.icon > img{
+    height: 4em;
+    width: 4em;
+}
+.icon > span{
+    margin: auto 1.3em;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+h2{
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+p{
+    font-size: 0.8rem;
+    font-stretch: condensed;
+}
