@@ -22,6 +22,7 @@ body {
     padding: 20px;
     font-family: "Poppins", sans-serif;
     background-color: yellow;
+    font-size: clamp(1rem, 0.5vw + 1rem, 1.2rem);
 }
 
 img,
@@ -45,7 +46,7 @@ video {
     justify-content: space-between;
     gap: 10px;
     box-shadow: 8px 8px;
-    width: 247px;
+    min-width: 247px;
 }
 .image img{
     border-radius: 10px;
