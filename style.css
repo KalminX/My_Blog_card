@@ -37,7 +37,7 @@ video {
     margin: 20px auto;
     padding: 20px;
     border-radius: 20px;
-    /* border: solid 1.5px; */
+    border: solid 1.5px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -78,6 +78,5 @@ h2{
     margin-bottom: 4px;
 }
 p{
-    font-size: 0.8rem;
-    font-stretch: condensed;
+    font-size: 0.7rem;
 }
