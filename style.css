@@ -1,7 +1,7 @@
 /************ CSS reset Template **********/
 **before,
 *::after {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 * {
@@ -22,7 +22,6 @@ body {
     padding: 20px;
     font-family: "Poppins", sans-serif;
     background-color: yellow;
-    
 }
 
 img,
@@ -35,10 +34,10 @@ video {
 
 /************ The rest of the CSS **********/
 .main {
-    margin: 30px auto;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 20px;
-    border: solid 1.5px;
+    /* border: solid 1.5px; */
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -46,7 +45,6 @@ video {
     justify-content: space-between;
     gap: 10px;
     box-shadow: 8px 8px;
-    width: 300px;
 }
 .image img{
     border-radius: 10px;
