@@ -1,7 +1,7 @@
 /************ CSS reset Template **********/
 **before,
 *::after {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 * {
@@ -45,6 +45,7 @@ video {
     justify-content: space-between;
     gap: 10px;
     box-shadow: 8px 8px;
+    width: 247px;
 }
 .image img{
     border-radius: 10px;
@@ -78,5 +79,6 @@ h2{
     margin-bottom: 4px;
 }
 p{
-    font-size: 0.7rem;
+    text-align: justify;
+    font-size: 0.7em;
 }
